@@ -1,0 +1,49 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+}
+
+header {
+	height: 200px;
+	background-color: #444444;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 200px;
+	bottom: 0;
+}
+
+.left {
+	float: left;
+	width: 20%;
+	height: 100%;
+	background-color: #DDDDDD;
+}
+
+.right {
+	float: right;
+	width: 20%;
+	height: 100%;
+	background-color: #DDDDDD;
+}
+
+.main {
+	height: 100%;
+}
+
+.content {
+	height: 80%;
+}
+
+.footer {
+	height: 20%;
+	background-color: black;
+}
